@@ -1,0 +1,87 @@
+/* top bar goes away after scrolling */
+.my-top-bar {
+  background-color: rgba(0, 0, 0, 0.664);
+  color: white;
+  position: absolute;
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* nav bar under top bar before scrolling*/
+.my-navbar-before-scroll {
+  background-color: rgba(0, 0, 0, 0.544); /* Adjust the RGBA values and opacity as desired */
+  position: absolute;
+  margin-top: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* scroll past top bar switched to fixed grey bar */
+.my-navbar-after-scroll {
+  background-color: rgb(83, 95, 106);
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+  }
+
+/* past lg break point either before or after scroll change to relative and grey */
+  @media (max-width: 992px) {
+    .my-navbar-after-scroll,
+    .my-navbar-before-scroll {
+      background-color: rgb(83, 95, 106);
+      margin-top: 0px;
+      top: 0;
+      left: 0;
+      right: 0;
+      position: relative;
+    }
+  }
+
+  /* give underlines for the collapse menu */
+  @media (max-width: 992px) {
+    .nav-link {
+      border-bottom: 1px solid black;
+    }
+  }
+
+  /* location, email, phone symbol link */
+  .emoticon-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .emoticon-link:hover,
+  .emoticon-link:focus,
+  .emoticon-link:active {
+    text-decoration: none;
+    outline: none;
+  }
+
+  /* text style in the navbar */
+  .navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s;
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: rgb(43, 105, 175);
+  }
+
+/* Showcase */
+#showcase {
+  position: relative;
+  z-index: 1; /* Set the z-index value to 1 to ensure it appears behind the bars */
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
