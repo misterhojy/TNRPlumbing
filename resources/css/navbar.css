@@ -23,7 +23,7 @@
 
 /* scroll past top bar switched to fixed grey bar */
 .my-navbar-after-scroll {
-  background-color: rgb(83, 95, 106);
+  background-color: black;
   margin-top: 0px;
   top: 0;
   left: 0;
@@ -34,14 +34,8 @@
 
 /* past lg break point either before or after scroll change to relative and grey */
   @media (max-width: 992px) {
-    .my-navbar-after-scroll,
     .my-navbar-before-scroll {
-      background-color: rgb(83, 95, 106);
       margin-top: 0px;
-      top: 0;
-      left: 0;
-      right: 0;
-      position: relative;
     }
   }
 
@@ -73,15 +67,3 @@
   .navbar-nav .nav-link.active {
     color: rgb(43, 105, 175);
   }
-
-/* Showcase */
-#showcase {
-  position: relative;
-  z-index: 1; /* Set the z-index value to 1 to ensure it appears behind the bars */
-  margin-top: 0px;
-  top: 0;
-  left: 0;
-  right: 0;
-  
-}
-

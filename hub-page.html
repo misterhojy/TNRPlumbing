@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="wifth=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="resources/css/navbar.css">
-        <title>M&J Plumbing</title>
+        <link rel="stylesheet" href="resources/css/showcase.css">
+        <title>M&J Plumbing | Boilers & Plumbing Services | 631-800-1686</title>
     </head>
     <body>
 
@@ -73,11 +73,37 @@
             </nav>
         </div>
 
-        <!-- Showcase -->
+        <!--Showcase GIF-->
         <div id="showcase" class="position-relative">
-            <img src="resources/img/water-drip.gif" alt="water-drip" style="width: 100%; max-width: 100vw;" class="img-fluid">
+            <img src="resources/img/showcase.gif" alt="showcase" style="width: 100%;height: 100vh;" class="img-fluid">
+            <div class="contatiner" style="position: absolute; top: 40%; left: 50%; text-align: center; font-family: Helvetica; transform: translate(-50%, -50%);">
+                <h1 class="showcase-overlay">
+                    M&J Plumbing
+                </h1>
+                <h1 class="showcase-subtitle">
+                    Service & Repair | Sewers & Drains | Boilers | Radiant Heat
+                </h1>
+            </div>
         </div>
-        
+
+        <!--Schedule Service-->
+        <section id="schedule-section" class="bg-primary text-light p-4">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="pb-3 pb-md-0">
+                        <button type="button" class="btn btn-outline-light btn-lg">Schedule Service</button>                    
+                    </div>
+                    <div>
+                        <a href="tel:631-800-1686" target="_blank" class="emoticon-link" style="color: white; text-decoration: none;">
+                            <h2 onmouseover="this.style.color='black';" onmouseout="this.style.color='white';">631-800-1686</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <script src="resources/js/navbar.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
