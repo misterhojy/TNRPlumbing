@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* nav bar under top bar before scrolling*/
@@ -18,7 +18,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* scroll past top bar switched to fixed grey bar */
@@ -29,20 +29,14 @@
   left: 0;
   right: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   }
 
 /* past lg break point either before or after scroll change to relative and grey */
   @media (max-width: 992px) {
+    .my-navbar-after-scroll,
     .my-navbar-before-scroll {
       margin-top: 0px;
-    }
-  }
-
-  /* give underlines for the collapse menu */
-  @media (max-width: 992px) {
-    .nav-link {
-      border-bottom: 1px solid black;
     }
   }
 
@@ -59,11 +53,15 @@
   }
 
   /* text style in the navbar */
-  .navbar-nav .nav-link {
+  .navbar-nav .nav-link, 
+  .dropdown-item {
     color: white;
     transition: color 0.3s;
   }
   .navbar-nav .nav-link:hover,
-  .navbar-nav .nav-link.active {
+  .navbar-nav .nav-link.active,
+  .dropdown-item:hover,
+  .dropdown-item:active {
     color: rgb(43, 105, 175);
   }
+

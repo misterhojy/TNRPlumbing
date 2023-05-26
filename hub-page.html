@@ -39,37 +39,51 @@
 
         <!--Navbar-->
         <div id="navbar-wrapper">
-            <nav class="navbar navbar-expand-lg my-navbar-before-scroll">
+            <nav class="navbar navbar-dark navbar-expand-lg my-navbar-before-scroll">
                 <!-- Navbar Content-->
-                <div class="container">
+                <div class="container-fluid">
                     <a href="#" class="navbar-brand">
                         <img src="resources/img/plumbing-logo.png" alt="M&J Plumbing" style="width: 90px; height: 80px;">
                     </a>
                     <scan style="color: white; font-family: 'Times New Roman';">M&J PLUMBING</scan>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <div class="collapse navbar-collapse" id="navmenu">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a href="#home" class="nav-link">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#services" class="nav-link">SERVICES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#service-area" class="nav-link">SERVICE AREA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about-us" class="nav-link">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact-us" class="nav-link">CONTACT US</a>
-                            </li>
-                        </ul>
-                    </div> 
-                </div>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">M&J Plumbing</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home" class="nav-link">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      SERVICES
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                      <li><a class="dropdown-item" href="#">SERVICE 1</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">SERVICE 2</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">SERVICE 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#service-area" class="nav-link">SERVICE AREA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about-us" class="nav-link">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact-us" class="nav-link">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
             </nav>
         </div>
 
@@ -87,7 +101,7 @@
         </div>
 
         <!--Schedule Service-->
-        <section id="schedule-section" class="bg-primary text-light p-4">
+        <section id="schedule-section" class="sched-gradient text-light p-4">
             <div class="container">
                 <div class="d-md-flex justify-content-between align-items-center">
                     <div class="pb-3 pb-md-0">
@@ -103,6 +117,26 @@
         </section>
 
 
+        <!--Boxes-->
+        <section id="boxes" class="text-dark">
+            <div class="container">
+                <div class="align-items-center pt-5" style="text-align: center; font-family: Helvetica,">
+                    <h1>Choose <scan class="mj-gradient">M&J Plumbing</scan></h1>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="pt-3">
+
+                    </div>
+                    <div class="pt-3">
+
+                    </div>
+                    <div class="pt-3">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
         <script src="resources/js/navbar.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
