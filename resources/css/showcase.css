@@ -42,7 +42,7 @@
 
   #schedule-section {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     margin-top: -40px; /* Adjust the value as needed */
   }
 
@@ -59,3 +59,26 @@
     -webkit-background-clip: text; /* For Safari compatibility */
     color: transparent;
   }
+
+  .column {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .column-heading {
+    color: rgb(82, 133, 228);
+    font-weight: bold;
+  }
+  
+  .column-text {
+    text-align: center;
+  }
+  

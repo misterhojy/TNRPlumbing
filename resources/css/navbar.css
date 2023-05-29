@@ -14,7 +14,7 @@
 .my-navbar-before-scroll {
   background-color: rgba(0, 0, 0, 0.544); /* Adjust the RGBA values and opacity as desired */
   position: absolute;
-  margin-top: 25px;
+  margin-top: 24px;
   top: 0;
   left: 0;
   right: 0;

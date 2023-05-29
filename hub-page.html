@@ -12,14 +12,14 @@
     <body>
 
            <!-- ON TOP Navbar Content-->
-           <div class="my-top-bar d-none d-lg-block">
+           <div class="my-top-bar d-none d-lg-flex ">
             <div class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="row align-items-center">
+                    <div class="col white-space: nowrap;">
                         <a href="https://goo.gl/maps/NmVKfZPA3T3DT7Hw9" target="_blank" class="emoticon-link">
                             <img src="resources/img/location.png" alt="pin" style="width: 27px;height: 18px;">
                         </a>
-                        <span style="font-family: 'Lucida Sans';">214 E Bayberry Rd, Islip, NY 11751</span>
+                        <span style="font-family: 'Lucida Sans'; font-size: smaller;">214 E Bayberry Rd, Islip, NY 11751</span>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <a href="mailto:masonspotify31@gmail.com" target="_blank" class="emoticon-link">
@@ -81,6 +81,29 @@
                                 <li class="nav-item">
                                     <a href="#contact-us" class="nav-link">CONTACT US</a>
                                 </li>
+                                <!-- Additional links -->
+                                <div class="container d-lg-none pt-5">
+                                    <li class="nav-item pb-4">
+                                        <a href="https://goo.gl/maps/NmVKfZPA3T3DT7Hw9" target="_blank" class="emoticon-link">
+                                            <img src="resources/img/location.png" alt="pin" style="width: 27px;height: 18px;">
+                                            <span style="font-family: 'Lucida Sans';">214 E Bayberry Rd, Islip, NY 11751</span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li class="nav-item  pb-4">
+                                        <a href="mailto:masonspotify31@gmail.com" target="_blank" class="emoticon-link">
+                                            <img src="resources/img/email.png" alt="email" style="width: 27px;height: 20px;">
+                                            <span style="font-family: 'Lucida Sans';">masonspotify31@gmail.com</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="tel:631-800-1686" target="_blank" class="emoticon-link">
+                                            <img src="resources/img/phone.png" alt="phone" style="width: 16px;height: 18px;">
+                                            <span style="font-family: 'Lucida Sans';">631-800-1686</span>
+                                        </a>
+                                    </li> 
+                                </div>
+                                                             
                             </ul>
                         </div> 
                     </div>
@@ -117,26 +140,64 @@
         </section>
 
 
-        <!--Boxes-->
-        <section id="boxes" class="text-dark">
-            <div class="container">
-                <div class="align-items-center pt-5" style="text-align: center; font-family: Helvetica,">
-                    <h1>Choose <scan class="mj-gradient">M&J Plumbing</scan></h1>
+        <!-- Boxes -->
+        <section class="pt-5">
+            <h1 style="text-align: center; font-family: Helvetica;">Choose <b class="mj-gradient">M&J Plumbing</b></h1>
+            <div class="container pt-5">
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="column">
+                    <img src="resources/img/outdoor-faucet.jpeg" alt="Image 1" class="img-responsive">
+                    <h2 class="column-heading pt-4">Residential & Commercial</h2>
+                    <div class="container">
+                        <p class="column-text">
+                            At M&J Plumbing, we are your trusted plumbing experts serving residential and commercial properties in Long Island, NY for any plumbing issue. We have consistently provided reliable plumbing solutions for homeowners and businesses in the area.
+                        </p>
+                    </div>      
+                  </div>
                 </div>
-                <div class="d-md-flex justify-content-between align-items-center">
-                    <div class="pt-3">
-
+                <div class="col-md-4">
+                  <div class="column">
+                    <img src="resources/img/pipe.jpg" alt="Image 2" class="img-responsive">
+                    <h2 class="column-heading pt-4">Boilers</h2>
+                    <div class="container">
+                        <p class="column-text">
+                            M&J Plumbing offers comprehensive boiler services, including installation, repair, and testing. Our skilled technicians are experienced in handling various types of boilers, such as condensing boilers, wall-hung boilers, IBC boilers, and Aquatherm boilers.
+                        </p>
                     </div>
-                    <div class="pt-3">
-
-                    </div>
-                    <div class="pt-3">
-
-                    </div>
-
+                  </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="column">
+                    <img src="resources/img/radiant-heats.jpg" alt="Image 3" class="img-responsive">
+                    <h2 class="column-heading pt-4">Radiant Heat</h2>
+                    <div class="container">
+                        <p class="column-text">
+                            Experience the comfort and efficiency of radiant heat with M&J Plumbing. Our skilled technicians specialize in providing radiant heat solutions for all types of floors, including hardwood, tile, and concrete. This service extends further than just indoors as we work with driveways as well.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <div class="column">
+                      <img src="resources/img/licensed.png" alt="Image 4" class="img-responsive">
+                      <h2 class="column-heading pt-4">Licensed & Insured</h2>
+                        <p class="column-text">
+                            M&J Plumbing is a licensed and insured company, ensuring that we meet the necessary standards and regulations. Our licensing and insurance demonstrate our commitment to compliance and accountability, giving our valued customers peace of mind knowing that they are working with a reputable and trustworthy plumbing service provider.
+                        </p>
+                        <button type="button" class="btn btn-dark btn-lg">About Us</button>                    
+                    </div>
+                </div>
+              </div>
+
             </div>
         </section>
+          
+
 
         <script src="resources/js/navbar.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
