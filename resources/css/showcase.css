@@ -82,3 +82,24 @@
     text-align: center;
   }
   
+  .about-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .quote-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .quote {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-style: italic;
+  }
+  
+  .author {
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
