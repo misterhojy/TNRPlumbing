@@ -103,3 +103,12 @@
     font-size: 16px; /* Adjust the font size as needed */
     font-weight: bold;
   }
+
+  .footer-link,
+  .footer-link:hover,
+  .footer-link:focus,
+  .footer-link:active {
+    color: rgb(82, 133, 228);
+    outline: none;
+    text-decoration: none;
+  }
