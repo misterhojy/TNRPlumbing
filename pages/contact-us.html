@@ -7,7 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="resources/css/navbar.css">
         <link rel="stylesheet" href="resources/css/showcase.css">
-        <title>Service Area | M&J Plumbing</title>
+        <title>Contact Us | M&J Plumbing</title>
     </head>
     <body>
 
@@ -65,21 +65,21 @@
                                       SERVICES
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark">
-                                        <li><a class="dropdown-item" href="res-com.html">Residential & Commercial Service</a></li>
+                                        <li><a class="dropdown-item" href="pages/res-com.html">Residential & Commercial Service</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="boilers.html">Boilers</a></li>
+                                        <li><a class="dropdown-item" href="pages/boilers.html">Boilers</a></li>
                                         <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="radiant-heat.html">Radiant Heat</a></li>
+                                        <li><a class="dropdown-item" href="pages/radiant-heat.html">Radiant Heat</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="service-area.html" class="nav-link">SERVICE AREA</a>
+                                    <a href="pages/service-area.html" class="nav-link">SERVICE AREA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about-us.html" class="nav-link">ABOUT US</a>
+                                    <a href="pages/about-us.html" class="nav-link">ABOUT US</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact-us.html" class="nav-link">CONTACT US</a>
+                                    <a class="nav-link active" aria-current="page" href="pages/contact-us.html" class="nav-link">CONTACT US</a>
                                 </li>
                                 <!-- Additional links -->
                                 <div class="container d-lg-none pt-5">
@@ -102,7 +102,8 @@
                                             <span style="font-family: 'Lucida Sans';">631-800-1686</span>
                                         </a>
                                     </li> 
-                                </div>                                  
+                                </div>
+                                                             
                             </ul>
                         </div> 
                     </div>
@@ -111,7 +112,7 @@
 
         <!--Showcase GIF-->
         <div id="showcase" class="position-relative">
-            <img src="resources/img/map.png" alt="showcase" style="width: 100%;height: 80vh;" class="img-fluid">
+            <img src="resources/img/watershowcase.jpeg" alt="showcase" style="width: 100%;height: 80vh;" class="img-fluid">
             <div class="contatiner" style="position: absolute; top: 40%; left: 50%; text-align: center; font-family: Helvetica; transform: translate(-50%, -50%);">
                 <h1 class="showcase-overlay">
                     M&J Plumbing
@@ -122,75 +123,58 @@
             </div>
         </div>
 
-        <!--Schedule Service-->
-        <section id="schedule-section" class="sched-gradient text-light p-4" style="margin-top: 0px;">
+         <!-- Contact Us and Form Section -->
+         <section class="text-dark pt-5 text-center text-sm-start" style="margin-top: 30px; font-family: Helvetica;">
             <div class="container">
-                <div class="d-md-flex justify-content-between align-items-center">
-                    <div class="pb-3 pb-md-0">
-                        <a href="contact-us.html" class="emoticon-link"><button type="button" class="btn btn-outline-light btn-lg">Schedule Service</button></a>   
-                    </div>
-                    <div>
-                        <a href="tel:631-800-1686" target="_blank" class="emoticon-link" style="color: white; text-decoration: none;">
-                            <h2 onmouseover="this.style.color='black';" onmouseout="this.style.color='white';">631-800-1686</h2>
-                        </a>
-                    </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h1 class="pb-1 mb-3 text-dark border-bottom border-dark">CONTACT US</h1>
+                    <a href="https://goo.gl/maps/NmVKfZPA3T3DT7Hw9" target="_blank" class="footer-link">
+                        214 E Bayberry Rd, Islip, NY 11751
+                    </a> <br>
+                    <a href="tel:631-800-1686" target="_blank" class="footer-link">
+                        631-800-1686
+                    </a> <br>
+                    <a href="mailto:masonspotify31@gmail.com" target="_blank" class="footer-link">
+                        masonspotify31@gmail.com
+                    </a>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3024.496257832987!2d-73.2237956!3d40.7070907!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e833190d614abd%3A0xaa35374403e82bdf!2s214%20E%20Bayberry%20Rd%2C%20Islip%2C%20NY%2011751!5e0!3m2!1sen!2sus!4v1685548798426!5m2!1sen!2sus" width="100%" height="450" style="border-radius: 10px; box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.356);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </div>
-        </section>
 
-        <!-- AREAS -->
-        <section class="p-5 text-primary-emphasis bg-primary-subtle border border-primary-subtle">
-            <div class="container" style="font-family: Helvetica;">
-                <div class="container text-center">
-                    <h1>Service Area</h1>
+                <div class="col-md-6">
+                  <form id="contactForm" class="sched-gradient text-light p-5" style="border: 10px; box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.389);">
+                    <h1>Request Service/Plumber</h1>
+                    <div class="mb-4">
+                      <label for="nameInput" class="form-label">Name*</label>
+                      <input type="text" class="form-control" id="nameInput" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-4">
+                      <label for="emailInput" class="form-label">Email*</label>
+                      <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-4">
+                      <label for="telephoneInput" class="form-label">Telephone*</label>
+                      <input type="tel" class="form-control" id="telephoneInput" placeholder="Enter your telephone" required>
+                    </div>
+                    <div class="mb-4">
+                      <label for="subjectInput" class="form-label">Subject*</label>
+                      <input type="text" class="form-control" id="subInput" placeholder="Enter the subject" required>
+                    </div>
+                    <div class="mb-4">
+                      <label for="messageInput" class="form-label">Let us know how we can help*</label>
+                      <textarea class="form-control" id="messageInput" rows="4" required></textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <button type="submit" class="btn btn-outline-light">Submit</button>
+                    </div>
+                  </form>                        
                 </div>
-                
-                <div class="row pt-3">
-                    <div class="col">
-                        <ul>
-                            <li>New York City</li>
-                            <li>Brooklyn</li>
-                            <li>Queens</li>
-                            <li>Nassau County</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col">
-                        <ul>
-                            <li>Great Neck</li>
-                            <li>Manhasset</li>
-                            <li>Long Beach</li>
-                            <li>Port Washington</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col">
-                        <ul>
-                            <li>Smithtown</li>
-                            <li>Islip</li>
-                            <li>Babylon</li>
-                            <li>Patchogue</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col">
-                        <ul>
-                            <li>Huntington</li>
-                            <li>Riverhead</li>
-                            <li>Southampton</li>
-                            <li>East Hampton</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container text-dark text-center">
-                    Give us a call to see if we service your area
-                </div>
- 
+              </div>
             </div>
-        </section>
-        
-        <!--Footer-->
-        <footer class="p-4 bg-dark text-light">
+          </section>
+          
+          <!--Footer-->
+          <footer class="mt-5 p-4 bg-dark text-light">
             <div class="container text-center">
                 <a href="#" class="navbar-brand">
                     <img src="resources/img/plumbing-logo.png" alt="M&J Plumbing" style="width: 90px; height: 80px;">
@@ -215,6 +199,7 @@
           </footer>
 
         <script src="resources/js/navbar.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>
