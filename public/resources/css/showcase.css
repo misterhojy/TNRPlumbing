@@ -30,6 +30,13 @@
     font-weight: bold;
 }
 
+.showcase2-subtitle {
+  color: white; 
+  -webkit-text-stroke: 1.5px black; 
+  font-size: 2.0vw;
+  font-weight: bold;
+}
+
 /* Adjustments for smaller screens */
 @media screen and (max-width: 992px) {
     .showcase-overlay {
@@ -40,6 +47,7 @@
     }
   }
 
+  /* Schedule Bar */
   #schedule-section {
     position: relative;
     z-index: 0;
@@ -60,6 +68,8 @@
     color: transparent;
   }
 
+
+  /* Columns */
   .column {
     text-align: center;
     margin-bottom: 30px;
@@ -82,6 +92,8 @@
     text-align: center;
   }
   
+
+  /* ABOUT */
   .about-img {
     width: 100%;
     height: auto;
@@ -111,4 +123,11 @@
     color: rgb(82, 133, 228);
     outline: none;
     text-decoration: none;
+  }
+
+
+  /* CAROUSEL */
+  video{
+    max-width: 100%;
+    height: auto;
   }
